@@ -25,6 +25,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+
 /* Container & Layout */
 .container {
   max-width: 850px;
@@ -98,4 +99,13 @@ h2 {
     margin: 0;
     padding: 20px;
   }
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  font-size: 0.9rem;
+  color: #78909c;
+  background: #fff;
+
 }

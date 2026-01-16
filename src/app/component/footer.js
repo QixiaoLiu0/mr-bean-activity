@@ -1,3 +1,9 @@
 export default function Footer() {
-  return <footer>2222</footer>;
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer>
+      <p>© {currentYear} Mr. Bean Tribute | "Laughter is Universal"</p>
+    </footer>
+  );
 }
